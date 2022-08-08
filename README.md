@@ -1,2 +1,43 @@
 # Readwise-Slack-Bot
-A useful Slack Bot to query info from a Readwise account. Developed as part of ACA 2022 Technical Project.
+## About
+Phoenix is a Slack Bot I developed to study API Testing using Slack API and Readwise API.
+
+## Usage
+By mentioning Phoenix `@Phoenix`, it responds with the options that you can ask it to do (i.e. get book and supplemental book list).
+
+## Demo
+[Insert demonstrating videos here]
+
+## How it works
+The program starts by making a call to Readwise API that requests and receives the corresponding data (i.e. book list, podcast list). When you make a contact with Phoenix, Phoenix is triggered and tells the program to act correspondingly (e.g. send a book list) through Slack API.<br />
+The entire bot is written in Python 3.10.6.
+
+## Prerequisites
+- Python 3
+- Slack Client
+- Slack Bolt Framework (pip3 install slack_bolt)
+- Python Requests Library (pip3 install requests)
+- IDE (VSCode)
+
+## Installation
+<ol>
+<li>Install Phoenix to your Slack workspace.</li>
+<li>Install the prerequisities.</li>
+<li>Clone this repo.</li>
+<li>Run the program!</li>
+</ol>
+
+## Next Steps
+- Refactor the code.
+- Get the highlights of a specific object (i.e. book, supplemental, podcast).
+- Get the highlight details with a specific keyword from all sources.
+- Get a list of objects with a specific tag.
+- Get the highlight details from all objects with a specific tag.
+- And many more...
+
+## References
+- [API Testing for Beginners (Tutorial)](https://www.youtube.com/watch?v=GZvSYJDk-us)
+- [Slack API Documentation](https://api.slack.com/docs)
+- [Readwise API Documentation](https://readwise.io/api_deets)
+
+**Credit: Made by Han Hoang. MIT License.**
