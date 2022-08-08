@@ -26,14 +26,13 @@ The entire bot is written in Python 3.10.6.
 <li>Clone this repo.</li>
 <li>Run the program!</li>
 </ol>
+**Note: Change the token strings 'XXX' to that of your own tokens and you're good to go!**
 
 ## Next Steps
 - Refactor the code.
-- Get the highlights of a specific object (i.e. book, supplemental, podcast).
-- Get the highlight details with a specific keyword from all sources.
-- Get a list of objects with a specific tag.
-- Get the highlight details from all objects with a specific tag.
-- And many more...
+- Dockerize the program and host it on GCP.
+- Add a Redirect URL and publish the bot to the Slack App Directory
+- Continue to expand the functionality of the bot (e.g. get the highlights of a specific object like book and podcast, get the highlight details with a specific keyword from all sources).
 
 ## References
 - [API Testing for Beginners (Tutorial)](https://www.youtube.com/watch?v=GZvSYJDk-us)
