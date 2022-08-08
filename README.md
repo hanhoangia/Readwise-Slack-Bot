@@ -1,4 +1,4 @@
-# Readwise-Slack-Bot
+# Phoenix the Slack bot
 ## About
 Phoenix is a Slack Bot I developed to study API Testing using Slack API and Readwise API.
 
